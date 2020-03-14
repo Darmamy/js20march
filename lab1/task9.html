@@ -1,0 +1,22 @@
+<head>
+	<meta charset="UTF-8">
+	<title>Task1</title>
+	
+</head>
+<body>
+	<div id='out'></div>
+	<input id ="Fname">
+	<input id ="Lname">
+	<input type ="button" value="click me" onclick="work()"/>
+	<script>
+	 let divOut = document.getElementById("out");
+	 function work() {
+	 let inFname =document.getElementById("Fname");
+	 let Fname = inFname.value;
+	 let inLname = document.getElementById("Lname");
+	 let Lname = inLname.value;
+	 divOut.innerHTML = "Меня зовут " + Lname +', '+Fname + ' ' + Lname;
+	 }
+	</script>
+</body>
+</html>

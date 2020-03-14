@@ -1,0 +1,19 @@
+<head>
+	<meta charset="UTF-8">
+	<title>Task1</title>
+	
+</head>
+<body>
+	<div id='out'></div>
+	<input id ="a">
+	<input type ="button" value="click me" onclick="work()"/>
+	<script>
+	 let divOut = document.getElementById("out");
+	 function work() {
+	 let inA =document.getElementById("a");
+	 let a = inA.value;
+	 divOut.innerHTML = "Мы стремимся к " + a;
+	 }
+	</script>
+</body>
+</html>
